@@ -1,0 +1,282 @@
+/*
+Prymary color - #757575
+secondary color - #212121
+accent color - #2196F3
+
+Fonts:
+Raleway bold
+roboto bold, black, regular, medium
+*/
+
+
+:root{
+    --prymary-color: #757575;
+    --secondary-color: #212121;
+    --accent-color: #2196F3;
+    --dark-bg-color: #2F303A;
+    --section-bg-color: #F5F4FA;
+
+
+}
+
+body {
+    color: var(--prymary-color);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+
+
+}
+
+.title-color{
+    color: var(--secondary-color);
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+
+}
+.hidden-header{
+    display: none;
+
+}
+
+button{
+    cursor: pointer;
+}
+
+/* Шапка сайта */
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.web{
+    color: var(--accent-color) ;
+}
+
+.site-nav {;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.15;
+letter-spacing: 0.02em;
+
+color: var(--secondary-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus
+ {
+  color: var(--accent-color);
+
+}
+
+.auth {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.15;
+letter-spacing: 0.02em;
+}
+
+.auth .link:hover,
+.auth .link:focus
+{
+    color: var(--accent-color);
+}
+
+/* Герой */
+.hero {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+background-color: var(--dark-bg-color);
+
+}
+
+
+.button {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: var(--accent-color);
+}
+
+.button:hover,
+.button:focus {
+
+}
+
+
+.features h3{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+}
+
+.features p {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+}
+
+.occupation h2
+{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+    
+    
+}
+
+.team h2{
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-align: center;
+}
+
+.team h3{
+font-size: 16px;
+font-weight: 500;
+line-height: 1.18;
+letter-spacing: 0.03em;
+}
+
+.team p{
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    
+    }
+
+/* Футер*/
+.footer {
+    background-color: var(--dark-bg-color);
+    color: #FFFFFF;
+}
+
+
+.logo-white {
+font-family: "Raleway", sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: #ffffff;
+    
+}
+
+.footer .link:hover,
+.footer .link:focus
+{
+    color: var(--accent-color);
+}
+
+
+.address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    }
+    
+
+.address a{
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+
+
+/* Portfolio*/
+
+
+
+.button-filter {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--secondary-color);
+    background-color: #F5F4FA;
+    
+
+}
+
+.button-filter:hover,
+.button-filter:focus
+{
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+.content h2{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--secondary-color);
+}
+
+.content p{
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
